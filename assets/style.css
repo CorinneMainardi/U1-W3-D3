@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Fira Sans", sans-serif;
+
+  background: url(./img/bgToDo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* header h1 {
+  color: #6adbd9;
+  font-weight: bold;
+  font-size: 1.5 rem;
+  margin-top: 30%;
+} */
+header p {
+  color: black;
+
+  font-size: 3rem;
+  margin-left: 16%;
+  margin-top: 26%;
+}
+main div h3 {
+  font-weight: bold;
+  font-size: 3rem;
+  color: #378fad;
+  margin-left: 20%;
+  margin-top: 6%;
+}
+main form {
+  font-size: 3rem;
+  color: #378fad;
+  font-weight: bold;
+  margin-left: 20%;
+}
+main form label {
+  font-family: "Fira Sans", sans-serif;
+}
+main form input {
+  border-radius: 15px;
+  border: none;
+  padding: 20px;
+  background: none;
+  margin-left: 5%;
+}
+main form button {
+  font-family: "Fira Sans", sans-serif;
+  border-radius: 15px;
+  border-color: #378fad;
+  background: none;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-left: 5%;
+}
+main ul li {
+  list-style: none;
+  margin-left: 25%;
+  font-weight: bold;
+  font-size: 2rem;
+}
+main ul li > button {
+  font-family: "Fira Sans", sans-serif;
+  border-radius: 15px;
+  border-color: #378fad;
+  background: none;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-left: 3%;
+}
+main p {
+  margin-left: 25%;
+  font-weight: bold;
+  font-size: 2rem;
+}

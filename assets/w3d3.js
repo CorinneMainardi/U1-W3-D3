@@ -44,7 +44,8 @@ const addTask = () => {
     }
     p = document.createElement("p");
     p.classList.add("errorP");
-    p.innerText = "input vuoto! Scrivi qualcosa";
+    p.innerHTML = "&#128565 Input vuoto! Scrivi qualcosa &#10071	";
+    // p.innerText = " input vuoto! Scrivi qualcosa";
     main.appendChild(p);
   } else {
     let p = document.querySelector(".errorP");
